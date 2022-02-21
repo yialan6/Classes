@@ -1,6 +1,35 @@
+
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    width:1500px
+}
+
 .class {
-    display:flex-inline;
-    width:100px;
-    height:100px;
-    background-color: grey;
+    width:250px;
+    height:300px;
+    border-radius: 9px;
+    font-family: 'Copperplate Gothic';
+    border: black;
+    border-style: solid;
+    margin: 8px;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#className {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#description {
+    font-size: 11px;
+}
+
+#history {
+    display: block;
+    height: 100px;
+    overflow: scroll;
 }
